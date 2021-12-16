@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="usa.cicloiv.mireto3.Vista.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="usa.cicloiv.mireto3.Vista.ProductosFragment"
+        android:label="@string/menu_productos"
+        tools:layout="@layout/fragment_productos" />
+
+    <fragment
+        android:id="@+id/nav_servicios"
+        android:name="usa.cicloiv.mireto3.Vista.ServiciosFragment"
+        android:label="@string/menu_servicios"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/nav_sucursales"
+        android:name="usa.cicloiv.mireto3.Vista.SucursalesFragment"
+        android:label="@string/menu_sucursales"
+        tools:layout="@layout/fragment_sucursales" />
+    <fragment
+        android:id="@+id/nav_favoritos"
+        android:name="usa.cicloiv.mireto3.Vista.FavoritosFragment"
+        android:label="@string/menu_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+
+</navigation>
