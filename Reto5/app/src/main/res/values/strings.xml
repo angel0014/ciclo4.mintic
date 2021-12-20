@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Decal Jaket</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+<!-- menu action-->
+    <string name="action_add">Add</string>
+    <string name="action_show">Show All</string>
+    <string name="action_add_product">Agregar Productos</string>
+    <string name="action_add_servicio">Agregar Servicios</string>
+    <string name="action_add_sucursal">Agregar Sucursal</string>
+
+    <string name="menu_home">HOME</string>
+    <string name="menu_productos">PRODUCTOS</string>
+    <string name="menu_sucursales">SUCURSALES</string>
+    <string name="menu_servicios">SERVICIOS</string>
+    <string name="menu_favoritos">FAVORITOS</string>
+
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_show">MapsActivityShow</string>
+
+    <string name="title_activity_form_maps">FormMapsActivity</string>
+    <string name="title_activity_show_maps">ShowMapsActivity</string>
+
+</resources>
